@@ -1,0 +1,42 @@
+/* common shared styles */
+body{
+    font-family: 'Lato',sans-serif; /* it is the style of font  */
+    font-family: 'Open Sans', sans-serif;
+}
+
+/* nav related styles */
+.text-primary{
+    color:#FD6E0A;
+}
+.btn-primary{
+    border-radius: 5px;
+    /* it make a round shape on the border edge  */
+    background:#FD6E0A;
+}
+nav{
+    display: flex;
+    /* if we do display flex it will come into one line. */
+}
+
+.nav-title{
+     color: #181818;/*color for nav title */ 
+     font-size: 45px;/* indicate the size of a font  */
+     font-style: normal;/* it is the style of font  */
+     font-weight: 800;/* it indicate the boldness of a font  */
+}
+
+nav > ul{
+    /* nav>ul means nav immidiate ul  */
+    display : flex;
+}
+nav li{
+    list-style: none;
+    /* it remove the dots from the navigation bar  */
+    margin-right: 50px;
+    /* it means margin in right side of every line  */
+}
+nav a{
+    text-decoration: none;
+    /* It will remove all the underline of the selected text  */
+    color: #474747;
+}
