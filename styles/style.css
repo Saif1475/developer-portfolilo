@@ -12,10 +12,17 @@ body{
     border-radius: 5px;
     /* it make a round shape on the border edge  */
     background:#FD6E0A;
+    border: 0;
+    color: white;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700 ;/* it indicate the boldness of a font  */
+    padding: 15px 35px;/* it indicates bordar distance form the text  */ 
 }
 nav{
-    display: flex;
-    /* if we do display flex it will come into one line. */
+    display: flex; /* if we do display flex it will come into one line. */
+   justify-content: space-between;/* if navigation has space between two header we can use it  */
+   align-items: center;/* for making a line symmetrical  */
 }
 
 .nav-title{
@@ -28,6 +35,7 @@ nav{
 nav > ul{
     /* nav>ul means nav immidiate ul  */
     display : flex;
+    align-items: center;
 }
 nav li{
     list-style: none;
@@ -39,4 +47,5 @@ nav a{
     text-decoration: none;
     /* It will remove all the underline of the selected text  */
     color: #474747;
+    border: 0 ;
 }
