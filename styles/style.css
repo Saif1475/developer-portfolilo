@@ -23,6 +23,7 @@ nav{
     display: flex; /* if we do display flex it will come into one line. */
    justify-content: space-between;/* if navigation has space between two header we can use it  */
    align-items: center;/* for making a line symmetrical  */
+   margin: 0 200px;
 }
 
 .nav-title{
@@ -48,4 +49,20 @@ nav a{
     /* It will remove all the underline of the selected text  */
     color: #474747;
     border: 0 ;
+}
+
+/* header reltaed style  */
+
+.header{
+    background-color: #FFF8F3 ;
+}
+.bannar{
+    padding:30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+.bannar .profilepicture{
+    height: 600px;/* for the hight of a picture */
+    width: 500px ;
+    /* for the width of a picture  */
 }
