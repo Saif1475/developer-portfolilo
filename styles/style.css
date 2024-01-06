@@ -55,10 +55,10 @@ nav a{
 
 .header{
     background-color: #FFF8F3 ;
-    background-image: url('../images/header_bg.png');
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
     /* for find url go to image section by using ../ then select image then find the file  */
     background-repeat: no-repeat;/* it use for stop background repeat  */
-    background-position: bottom right;
+    background-position: bottom right, top left;
 }
 .bannar{
     padding:30px 30px 0px 180px;
