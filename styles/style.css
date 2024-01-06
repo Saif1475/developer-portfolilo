@@ -55,14 +55,58 @@ nav a{
 
 .header{
     background-color: #FFF8F3 ;
+    background-image: url('../images/header_bg.png');
+    /* for find url go to image section by using ../ then select image then find the file  */
+    background-repeat: no-repeat;/* it use for stop background repeat  */
+    background-position: bottom right;
 }
 .bannar{
-    padding:30px 30px 30px 150px;
+    padding:30px 30px 0px 180px;
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+.banner-content{
+    max-width: 500px;/* its means the maximum width for anything in a website  */
 }
 .bannar .profilepicture{
     height: 600px;/* for the hight of a picture */
     width: 500px ;
     /* for the width of a picture  */
+}
+.banner-greeting{
+    font-size: 45px ;
+    color: #474747;
+    margin-bottom: 0;
+}
+.banner-title{
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 85px;
+    font-weight: 700;
+}
+.banner-discription{
+    margin-top: 0px;
+    margin-bottom:20px;
+}
+/* main section style */
+
+/* about section style */
+.about{
+    padding: 130px;
+    border-radius: 10px;
+    background-color: #FFF8F3;
+}
+.section-description{
+    color: #757575;
+    text-align:center;
+    font-size:18px;
+}
+.section-title{
+    color: #181818;
+    text-align: center;
+    /* we can align text using it we have 3 options in their front center and end  */
+    font-size: 35px;
+    font-weight: 700;
+    line-height: normal;
 }
