@@ -125,8 +125,8 @@ main{
     padding-top: 20px;
     padding-left: 30px;
     padding-right: 30px;  
-    margin: 0 auto;  
-    justify-content: space-around;    /* it works like margin 0 auto  */
+    /* margin: 0 auto;    */
+    justify-content: space-around; /*    it works like margin 0 auto  */
 }
 .info-title{
     color: #757575;
@@ -141,4 +141,23 @@ main{
     font-style: normal;
     font-weight: 700;
     line-height: 30px;
+}
+#what-i-do-description{
+    padding: 30px 150px ;
+}
+.skills-container{
+    display: flex;
+    margin: 40px;
+}
+.skill{
+    border:25px;
+    padding-left:45px;
+    padding-right: 45px;
+}
+.skill-descriptions{
+    color: #757575;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
 }
